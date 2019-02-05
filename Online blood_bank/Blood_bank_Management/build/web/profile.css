@@ -1,0 +1,24 @@
+#main-content{
+    width:1340px;
+    height: 620px;
+    background: url(images/94916381.jpg)no-repeat;
+    background-size: cover;
+    //text-align: center;
+    color:white;
+    font-weight: bold;
+}
+form{
+    
+    position: absolute;
+    left: 15%;
+    top: 15%;
+
+}
+#main-content h1{
+    color: Red;
+}
+#main-content ul li a {
+	color: yellow;
+}
+
+

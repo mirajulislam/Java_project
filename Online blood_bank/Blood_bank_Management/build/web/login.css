@@ -1,0 +1,21 @@
+#main-content{
+    width: 1200px;
+    height: 600px;
+    background: url(images/bloodcells.jpg)no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+form{
+    
+    position: absolute;
+    left: 6%;
+    top: 8%;
+
+}
+#h1 h4{
+    position: absolute;
+}
+#main-content navl h4 a{
+    color: white;
+}

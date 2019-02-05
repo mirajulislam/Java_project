@@ -1,0 +1,122 @@
+@charset "ISO-8859-1";
+body{
+	font-family:'Raleway',sans-serif;
+}
+
+*{
+	pandding:0px;
+	margin:0px;
+}
+
+#navl{
+	width:100%;
+	height:70px;
+	line-height:70px;
+	background:#FF0000;
+}
+
+#navl h1{
+	float:left;
+	font-size:2.5em;
+	margin-left:200px;
+}
+
+#navl h1 a{
+	text-decoration:none;
+	color:white;
+}
+
+#navl ul{
+float:left;	
+margin-right:15px;
+}
+
+#navl ul li{
+	margin-left:200px;
+	line-height:40px;
+	background:#DC143C;
+	display:inline-block;
+        list-style-type: none;
+	margin-left:30px;
+	
+}
+
+#navl ul li a{
+	text-decoration:none;
+	color:white;
+	pandding:25px;
+	
+}
+
+#navl ul li:hover{ 
+	background:#BA55D3;	
+        transition: all ease-in-out 0.45s;
+}
+#active{
+    background: #00CED1;
+    transition: all ease-in-out 0.45;
+}
+
+#main-content{
+    width: 100%;
+    height: 600px;
+    background: url(images/bloodbags.jpg)no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #8B0000;
+    line-height: 50px;
+}
+
+#service{
+    background: #E6E6FA;
+    width: 200px;
+    height: 50px;
+    line-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:5px;
+    color:blue;
+    font-weight: 100;
+}
+#service:hover{
+    box-shadow: 1px 5px 2px 2px rgba(84,69,69,0.53);
+    transition: all ease-in-out 0.45s;
+}
+
+#service a{
+    color:B22222;
+    text-decoration: none;
+    padding:10px;
+}
+
+#third{
+    width: 100%;
+    height:300px;
+    background:Maroon;
+}
+#third1{
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+    display: inline;
+    float: left;
+    margin: 18px;
+    text-align: center;
+     color: white;
+}
+
+#third1 img{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+}
+#footer{
+    width: 100%;
+    height: 100px;  background: rgba(47,49,49,0.91);
+}
+#footer h2{
+    color: white;
+    float: right;
+    margin-left: 20px;
+}

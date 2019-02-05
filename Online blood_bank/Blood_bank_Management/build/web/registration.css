@@ -1,0 +1,22 @@
+
+#main-content{
+    width: 710px;
+    height: 780px;
+    background: url(images/regiter.jpg)no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:#B22222;
+}
+form{
+    
+    position: absolute;
+    left: 10%;
+    top: 8%;
+
+}
+#main-content table{
+    font-weight: bold;
+    color:blue;
+}
+
+
